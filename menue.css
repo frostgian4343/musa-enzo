@@ -1,0 +1,94 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f8f1e4;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-wrapper {
+    max-width: 800px;
+    margin: auto;
+    padding: 40px 20px;
+    background: #fff8e7;
+    border: 3px solid #FFD700;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+}
+
+.menu-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.menu-header h1 {
+    font-size: 3em;
+    color: #FFD700;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.menu-header p {
+    font-size: 1.2em;
+    color: #444;
+    font-style: italic;
+}
+
+.menu-section {
+    margin-bottom: 40px;
+}
+
+.menu-section h2 {
+    font-size: 2em;
+    color: #FFD700;
+    border-bottom: 2px solid #FFD700;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted #FFD700;
+}
+
+.item-name {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.item-price {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #FFD700;
+}
+
+.item-desc {
+    width: 100%;
+    font-style: italic;
+    font-size: 0.95em;
+    color: #555;
+    margin-top: 5px;
+}
+
+.see-more {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.see-more a {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #FFD700;
+    border: 2px solid #FFD700;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.see-more a:hover {
+    background-color: #FFD700;
+    color: #222;
+}
